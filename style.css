@@ -57,62 +57,82 @@ header{
 }
 
 /* main */
-
-section{
-    width: 95%;
-    margin: auto;
-}
 main img{
     width: 100%;
+}
+
+section{
+    width: 90%;
+    margin: auto;
 }
 
 h3{
     color: var(--orange);
     text-transform: uppercase;
     font-size: 0.7rem;
-    margin: 1rem;
+    margin: 1rem 0;
 }
 
 h2{
+    margin: 1rem 0;
     width: 80%;
-    margin: 1rem;
 }
 
 p{
     font-size: 0.9rem;
     line-height: 1.5;
-    width: 90%;
-    margin: 1rem auto;
     color: var(--azul_muito_escuro);
+    margin: 1rem 0;
 }
 
 .preco {
     display: grid;
-    grid-template-columns: 35% 20% 1fr ;
+    grid-template-columns: 35% 15% 1fr ;
     align-items: center;
     justify-items: center;
 }
 
 .preco p{
-    display: inline-block;
+    
 }
 
 .valor-novo{
     font-size: 1.7rem;
     font-weight: bold;
     color: var(--preto);
+    justify-self: start;
 }
 
 .desconto{
     color: var(--orange);
-    font: 1.5rem;
+    font-size: 1rem;
+    padding: 0.2rem;
     font-weight: bold;
     background-color: var(--laranja_claro);
-    width: 30px;
+    border-radius: 5px;
 }
 
 .valor-antigo{
+    font-size: 1rem;
     color: var(--azul_cinzada);
     font-weight: bold;
-    justify-self: start;
+    justify-self: end;
+}
+
+button{
+    display: block;
+    background-color: var(--orange);
+    color: var(--branco);
+    width: 80%;
+    height: 3rem;
+    margin: 1rem auto;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button img{
+    width: 17px;
+    margin-right: 5px;
 }
