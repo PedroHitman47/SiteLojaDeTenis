@@ -1,0 +1,35 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+    --font-padrao: 'Kumbh Sans', sans-serif;
+
+    --orange: #ff7d1a;
+    --laranja_claro: #ffede0;
+
+    --azul_muito_escuro: #68707d;
+    --azul_cinzada: #b6bcc8;
+    --azul_cinzada_claro:#f7f8fd;
+    --branco: #ffffff;
+    --preto: #000000;
+}
+
+
+body{
+    font-family: var(--font-padrao);
+}
+
+.flexbox-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1{
+    display: inline-block;
+}
+
+.avatar{
+    width: 25px;
+}
