@@ -15,17 +15,23 @@
     --preto: #000000;
 }
 
+*{
+    padding: 0;
+    margin: 0;
+}
 
 body{
     font-family: var(--font-padrao);
 }
+
+/* header */
 
 header{
     display: grid;
     grid-template-columns: 10% 1fr 15% 10%;
     align-items: center;
     justify-items: center;
-    padding: 0.5rem;
+    padding: 0.8rem;
 }
 
 .menu{
@@ -33,7 +39,7 @@ header{
 }
 
 .title{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
     display: inline;
     margin: 0;
@@ -41,11 +47,72 @@ header{
 }
 
 .carrinho{
-    width: 25px;
-    padding-top: 0.5rem;
+    width: 20px;
+    
 }
 
 .avatar{
-    width: 25px;
-    padding-top: 0.5rem;
+    width: 23px;
+   
+}
+
+/* main */
+
+section{
+    width: 95%;
+    margin: auto;
+}
+main img{
+    width: 100%;
+}
+
+h3{
+    color: var(--orange);
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    margin: 1rem;
+}
+
+h2{
+    width: 80%;
+    margin: 1rem;
+}
+
+p{
+    font-size: 0.9rem;
+    line-height: 1.5;
+    width: 90%;
+    margin: 1rem auto;
+    color: var(--azul_muito_escuro);
+}
+
+.preco {
+    display: grid;
+    grid-template-columns: 35% 20% 1fr ;
+    align-items: center;
+    justify-items: center;
+}
+
+.preco p{
+    display: inline-block;
+}
+
+.valor-novo{
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: var(--preto);
+}
+
+.desconto{
+    color: var(--orange);
+    font: 1.5rem;
+    font-weight: bold;
+    background-color: var(--laranja_claro);
+    width: 30px;
+}
+
+.valor-antigo{
+    color: var(--azul_cinzada);
+    font-weight: bold;
+    justify-self: start;
 }
