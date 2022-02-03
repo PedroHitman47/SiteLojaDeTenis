@@ -20,16 +20,32 @@ body{
     font-family: var(--font-padrao);
 }
 
-.flexbox-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+header{
+    display: grid;
+    grid-template-columns: 10% 1fr 15% 10%;
+    align-items: center;
+    justify-items: center;
+    padding: 0.5rem;
 }
 
-h1{
-    display: inline-block;
+.menu{
+    padding-top: 0.5rem;
+}
+
+.title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    display: inline;
+    margin: 0;
+    justify-self: start;
+}
+
+.carrinho{
+    width: 25px;
+    padding-top: 0.5rem;
 }
 
 .avatar{
     width: 25px;
+    padding-top: 0.5rem;
 }
