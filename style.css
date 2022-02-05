@@ -31,11 +31,11 @@ header{
     grid-template-columns: 10% 1fr 15% 10%;
     align-items: center;
     justify-items: center;
-    padding: 0.8rem;
+    padding: 1rem;
 }
 
 .menu{
-    padding-top: 0.5rem;
+    padding-top: 0.3rem;
 }
 
 .title{
@@ -48,12 +48,12 @@ header{
 
 .carrinho{
     width: 20px;
-    
+    padding-top: 0.3rem;
 }
 
 .avatar{
     width: 23px;
-   
+    padding-top: 0.3rem;
 }
 
 /* main */
@@ -92,9 +92,6 @@ p{
     justify-items: center;
 }
 
-.preco p{
-    
-}
 
 .valor-novo{
     font-size: 1.7rem;
@@ -119,7 +116,31 @@ p{
     justify-self: end;
 }
 
-button{
+.quantidade{
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    align-items: center;
+    justify-items: center;
+    width: 80%;
+    background-color: var(--azul_cinzada_claro);
+    border-radius: 10px;
+}
+
+.quantidade .menos, .quantidade .mais{
+    width: 40%;
+}
+
+.quantidade .valor{
+    align-self: center;
+    justify-self: center;
+    color: var(--preto);
+    font-weight: bold;
+}
+
+
+
+
+.adiciona{
     display: block;
     background-color: var(--orange);
     color: var(--branco);
