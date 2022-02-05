@@ -1,0 +1,52 @@
+@media screen and (min-width: 780px) {
+    body{
+        width: 80%;
+        margin: auto;
+    }
+
+    .grid-header{
+        display: grid;
+        grid-template-columns: 5% 1fr 10% 10%;
+        padding: 2rem 0rem;
+    }
+    
+    .menu{
+        display: none;
+    }
+    
+    .title{
+        order: 0;
+    }
+    
+    ul{
+        display: block;
+        order: 1;
+    }
+
+    ul li{
+        color: var(--azul_cinzada);
+        padding: 1rem;
+    }
+
+    ul li:hover{
+        color: var(--preto);
+        border-bottom: 4px solid var(--orange);
+        padding-bottom: 2rem;
+    }
+
+    .carrinho{
+        order: 2;
+        width: 20px;
+    }
+
+    .avatar{
+        order: 3;
+        width: 40px;
+        padding: 0;
+    }
+
+    .avatar:hover{
+        border: 1px solid var(--orange);
+        border-radius: 3rem;
+    }
+}
