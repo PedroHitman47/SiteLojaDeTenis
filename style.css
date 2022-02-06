@@ -169,12 +169,12 @@ p{
 
 
 .adiciona{
-    display: block;
+    /* display: block; */
     background-color: var(--orange);
     color: var(--branco);
     width: 80%;
     height: 3rem;
-    margin: 1rem auto;
+    /* margin: 1rem auto; */
     border: none;
     border-radius: 0.5rem;
     font-size: 1rem;
