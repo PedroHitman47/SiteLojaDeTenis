@@ -146,7 +146,7 @@ p{
 
 .quantidade{
     display: grid;
-    grid-template-columns: 10% 1fr 10%;
+    grid-template-columns: 30% 1fr 30%;
     align-items: center;
     justify-items: center;
     width: 80%;
@@ -156,6 +156,7 @@ p{
 
 .quantidade .menos, .quantidade .mais{
     width: 40%;
+    padding:  auto 1rem;
 }
 
 .quantidade .valor{
@@ -165,16 +166,11 @@ p{
     font-weight: bold;
 }
 
-
-
-
 .adiciona{
-    /* display: block; */
     background-color: var(--orange);
     color: var(--branco);
     width: 80%;
     height: 3rem;
-    /* margin: 1rem auto; */
     border: none;
     border-radius: 0.5rem;
     font-size: 1rem;
