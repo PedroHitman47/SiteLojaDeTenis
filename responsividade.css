@@ -142,7 +142,21 @@
 }
 
 @media screen  and (min-width: 1000px){
+    .box-thumb{
+        display: grid;
+        grid-template-rows: repeat(4,10px);
+        margin: 0;
+    }
 
+    .box-thumb li{
+        display: inline-block;
+        width: 60px;
+        margin: 0 0.6rem;
+    }
+
+    .box-thumb img{
+        border-radius: 6px;
+    }
 }
 
 @media screen and (min-width: 1250px) {
