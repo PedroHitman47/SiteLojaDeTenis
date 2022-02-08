@@ -34,7 +34,7 @@ header{
     padding: 1rem;
 }
 
-ul{
+.hamburguer{
     display: none;
 }
 
@@ -183,4 +183,8 @@ p{
 button img{
     width: 17px;
     margin-right: 5px;
+}
+
+.box-thumb{
+    display: none;
 }
