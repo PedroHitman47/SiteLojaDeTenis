@@ -99,7 +99,6 @@
         width: 50%;
         vertical-align: top;
         display: inline-block;
-        margin: 1rem;
     }
 
     .descricao h3{
@@ -143,21 +142,6 @@
 }
 
 @media screen  and (min-width: 1000px){
-    .descricao h3{
-        margin: 0;
-    }
-    .box-thumb{
-        display: grid;
-        grid-template-columns: repeat(4, 60px);
-        
-    }
-
-    .thumbnail li{
-        display: inline-block;
-    }
-
-
-
 
 }
 
