@@ -173,7 +173,7 @@
     }
     
     .box-compra{
-        margin: 2rem;
+        margin: 1rem;
     }
 
     .box-thumb li{
@@ -197,7 +197,7 @@
     .box-thumb li{
         display: inline-block;
         width: 80px;
-        margin: 1rem;
+        margin: 0.9rem;
     }
     
 
@@ -206,14 +206,35 @@
             width: 45%;
         }
     
+        .box-thumb img{
+            margin: 1.1rem;
+        }
+
         .box-thumb li{
-            width: 110px;
-            margin: 1rem;
+            width: 100px;
+            margin: 1.2rem;
         }
 
 
     }
 
-   
+    @media screen and (min-width:1900px){
+        .box-img{
+            width: 40%;
+        }
     
+        .box-thumb li{
+            width: 100px;
+           
+        }
+    }
+
+    @media screen and (min-width:2000px){
+        .box-thumb li{
+            width: 155px;
+        }
+    }
+
+
 }
+
