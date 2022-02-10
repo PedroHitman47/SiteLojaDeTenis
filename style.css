@@ -90,7 +90,7 @@ main img{
 }
 
 section{
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
@@ -111,6 +111,10 @@ p{
     line-height: 1.5;
     color: var(--azul_muito_escuro);
     margin: 1rem 0;
+}
+
+.box-text{
+    margin: 1rem;
 }
 
 .preco {
