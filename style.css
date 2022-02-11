@@ -87,7 +87,34 @@ li{
 /* main */
 main img{
     width: 100%;
+    position: relative;
 }
+
+.previous{
+    position: absolute;
+    left: 5%;
+    top: 250px;
+    width: 2.9%;
+    padding: 10px 12px;
+    background-color: #ffffff;
+    border-radius: 10rem;
+    z-index: 1;
+}
+
+.next{
+    position: absolute;
+    left: 85%;
+    top: 250px;
+    width: 3%;
+    padding: 10px 12px;
+    background-color: #ffffff;
+    border-radius: 10rem;
+    z-index: 1;
+}
+
+
+
+
 
 section{
     width: 100%;
